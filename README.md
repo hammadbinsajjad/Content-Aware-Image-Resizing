@@ -13,18 +13,22 @@ Similar to reducing size, we can also increase the size by finding the seam with
 ## Results
 
 ### Before
+![Original Testing Image](original.png)
 
 ### After
+![Resized Testing Image](resized.png)
 
 ## Limitation and its mitigation
 
 One of the limitations of Content-Aware Image Resizing is that it can deform areas where there is a high level of detail e.g. Faces. To mitigate this we used an already-built face recognition system and integrated it within our project. When the faces were recognised, we would then mark them with the highest value in the energy map to prevent them from becoming the minimum seam
 
 ### Before face recognition
+![Deformed Face Resized Image](deformed_image.png)
 
 ### After face recognition
+![Mitigated Face Resized Image](mitigated_image.png)
 
 ## Credits
 
-- Resources and Literature used is present in the project report.
-- Special thanks to my teammates Uswa and Hamna who helped me did their part in this project
+- Resources and Literature used are present in the project report.
+- Special thanks to my teammates Uswa and Hamna who helped me and did their part in this project
