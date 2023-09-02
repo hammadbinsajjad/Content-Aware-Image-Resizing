@@ -31,4 +31,4 @@ One of the limitations of Content-Aware Image Resizing is that it can deform are
 ## Credits
 
 - Resources and Literature used are present in the project report.
-- Special thanks to my teammates Uswa and Hamna who helped me and did their part in this project
+- Special thanks to my teammates Uswa https://github.com/Uswa-Tahir and Hamna who helped me and did their part in this project
